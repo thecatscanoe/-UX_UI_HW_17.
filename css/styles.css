@@ -1,11 +1,32 @@
-.h1 {
-    color: blue;
+h1 {
+    color: white;
+    font-style: rufina;
 }
-.p { 
-    color:Tomato;
+p { 
+    font-style: sahitya;
+    color:black;
 }
-.body{
-    background-color:#729396;
+body{
+    background-color:#b6a7a3;}
+img {
+    height: 106px;
+    width: 106px;}
+   
     
+.flex-container {
+    display: flex;}
+
+
+img { height: 450px;
+    width: 533px;}
+
+img { height: 450px;
+width: 533px;}
+
+img {height: 440px;
+    width: 700px;}
+
+img { height: 450px;
+        width: 533px;}
 
 }
