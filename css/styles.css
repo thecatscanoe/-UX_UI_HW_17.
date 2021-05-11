@@ -1,32 +1,92 @@
+.footerContent{
+    padding: 25px 20px 25px 40px;
+
+}
+
+.footerContent img {
+    height: 50px;
+    float: left; 
+}
+
+
+.footerContent ul{
+    list-style: none;
+    text-align: right;
+    padding: 0;
+    margin: auto;
+
+}
+
+.footerContent li{
+    display: inline-block;
+}
+
+.footerContent a{
+    color: white;
+    text-decoration: none;
+    display:inline-block;
+    font-size: 14px;
+    width: 75%;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+
 h1 {
     color: white;
     font-style: rufina;
+    text-align: center;
 }
 p { 
     font-style: sahitya;
     color:black;
 }
 body{
-    background-color:#b6a7a3;}
-img {
-    height: 106px;
-    width: 106px;}
+    background-color:#14272D;}
+
    
     
 .flex-container {
     display: flex;}
 
 
-img { height: 450px;
-    width: 533px;}
+.myportfolioimages { height: 228px;
+    width: 258px;  padding: 20px; 
+    margin: 20px; }
 
-img { height: 450px;
-width: 533px;}
-
-img {height: 440px;
-    width: 700px;}
-
-img { height: 450px;
-        width: 533px;}
+.myportfoliosection{ 
+    justify-content: center;
+   
+}
+.herosection{
+    padding: 20px; 
+    background-color:#729396;
+    display:flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-direction: row;
 
 }
+
+h2 { color: white;}
+
+.herosection img {float: right;}
+
+.clear {
+    clear:both
+}
+@media only screen and (max-width: 600px) {
+    .herosection {
+      flex-direction: column-reverse;
+   
+    }
+    @media only screen and (max-width: 600px) {
+      .flex-container {
+        flex-direction: column;
+
+
+
+    }
+    }
+  
+  
